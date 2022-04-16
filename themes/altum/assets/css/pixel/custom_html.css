@@ -1,0 +1,17 @@
+/* Custom HTML */
+.altumcode-custom-html-wrapper {
+}
+
+@media (min-width: 576px) {
+    .altumcode-custom-html-wrapper {
+        max-width: 400px !important;
+        min-width: 300px !important;
+    }
+}
+
+.altumcode-custom-html-content {
+    padding: 8px !important;
+}
+
+.altumcode-custom-html-html {
+}

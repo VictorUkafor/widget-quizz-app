@@ -1,0 +1,57 @@
+/* Reviews */
+.altumcode-reviews-wrapper {
+}
+
+@media (min-width: 576px) {
+    .altumcode-reviews-wrapper {
+        max-width: 400px !important;
+    }
+}
+
+.altumcode-reviews-content {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+}
+
+.altumcode-reviews-header {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.altumcode-reviews-stars {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    margin-bottom: 5px !important;
+}
+
+.altumcode-reviews-stars div {
+    margin-right: 3px !important;
+}
+
+.altumcode-reviews-title {
+    font-weight: bold !important;
+    margin-bottom: 0 !important;
+    margin-right: 15px !important;
+}
+
+.altumcode-reviews-description {
+    font-size: 14px!important;
+    margin-bottom: 5px !important;
+    border-radius: 8px!important;
+}
+
+.altumcode-reviews-image {
+    min-width: 75px !important;
+    height: 75px !important;
+    margin-right: 10px !important;
+    border-radius: 8px!important;
+    object-fit: cover!important;
+}
+
+.altumcode-rtl .altumcode-reviews-image {
+    margin: 0 0 0 10px !important;
+}
